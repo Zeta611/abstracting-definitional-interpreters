@@ -1,0 +1,4 @@
+(executable
+ (public_name abstracting_definitional_interpreters)
+ (name main)
+ (libraries abstracting_definitional_interpreters base stdio))

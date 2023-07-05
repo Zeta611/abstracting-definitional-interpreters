@@ -1,0 +1,5 @@
+(library
+ (name abstracting_definitional_interpreters)
+ (libraries base stdio monads ppx_show.runtime)
+ (preprocess
+  (pps ppx_jane ppx_show)))
