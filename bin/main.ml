@@ -10,7 +10,7 @@ let expr =
       operand = Op2 { op = "+"; lhs = Const 1; rhs = Const 2 };
     }
 
-let { result; store } = eval expr
+let { result; store } = Default_interpreter.eval expr
 
 let () =
   printf "expr: %s\n" (show_expr expr);
